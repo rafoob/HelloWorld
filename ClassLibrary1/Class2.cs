@@ -8,5 +8,13 @@ namespace ClassLibrary1
 {
     public class Class2
     {
+        public int Foo { get; }
+        private string Bar { get; set; }
+
+        public Class2(int foo, string bar)
+        {
+            Foo = foo;
+            Bar = bar;
+        }
     }
 }
