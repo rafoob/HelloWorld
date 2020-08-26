@@ -10,7 +10,7 @@ namespace ClassLibrary1
     {
     }
     
-    public void HelloMaster
+    public void HelloMaster()
     {
         //created in master branch
     }
