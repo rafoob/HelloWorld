@@ -16,5 +16,10 @@ namespace ClassLibrary1
             Foo = foo;
             Bar = bar;
         }
+        
+        public void HelloDev
+        {
+            //created in dev branch
+        }
     }
 }
