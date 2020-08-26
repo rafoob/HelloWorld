@@ -16,5 +16,10 @@ namespace ClassLibrary1
             Foo = foo;
             Bar = bar;
         }
+
+        public void DoWork()
+        {
+
+        }
     }
 }
