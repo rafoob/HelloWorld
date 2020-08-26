@@ -15,6 +15,8 @@ namespace ClassLibrary1
             
             //changes made on on github ...
             //...and more changes
+
+            //my second change
         }
 
     }
