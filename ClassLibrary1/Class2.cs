@@ -17,7 +17,7 @@ namespace ClassLibrary1
             Bar = bar;
         }
         
-        public void HelloDev
+        public void HelloDev()
         {
             //created in dev branch
         }
