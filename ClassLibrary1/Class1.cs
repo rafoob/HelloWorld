@@ -12,11 +12,17 @@ namespace ClassLibrary1
         public Class1()
         {
             //my first change
-            
+
             //changes made on on github ...
             //...and more changes
 
             //my second change
+
+        }
+
+        public Class1(int foo)
+        {
+
         }
 
     }
