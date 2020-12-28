@@ -14,4 +14,9 @@ namespace ClassLibrary1
     {
         //created in master branch
     }
+    
+    public void HelloClassTwo()
+    {
+        
+    }
 }
