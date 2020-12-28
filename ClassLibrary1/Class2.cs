@@ -8,15 +8,18 @@ namespace ClassLibrary1
 {
     public class Class2
     {
+
+        public void HelloMaster()
+        {
+            //created in master branch
+        }
+
+        public void HelloClassTwo()
+        {
+
+        }
+
     }
     
-    public void HelloMaster()
-    {
-        //created in master branch
-    }
     
-    public void HelloClassTwo()
-    {
-        
-    }
 }
