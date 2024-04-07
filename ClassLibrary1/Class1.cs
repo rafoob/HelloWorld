@@ -9,14 +9,21 @@ namespace ClassLibrary1
 {
     public class Class1
     {
+        public int MyProperty { get; set; }
         public Class1()
         {
             //my first change
-            
+
             //changes made on on github ...
             //...and more changes
 
             //my second change
+
+        }
+
+        public Class1(int foo)
+        {
+
         }
 
     }

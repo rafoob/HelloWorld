@@ -8,6 +8,7 @@ namespace ClassLibrary1
 {
     public class Class2
     {
+
         public int Foo { get; }
         private string Bar { get; set; }
 
@@ -26,5 +27,20 @@ namespace ClassLibrary1
         {
 
         }
+
+
+        public void HelloMaster()
+        {
+            //created in master branch
+        }
+
+        public void HelloClassTwo()
+        {
+
+        }
+
+
     }
+    
+    
 }
