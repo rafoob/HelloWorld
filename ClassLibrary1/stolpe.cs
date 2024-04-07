@@ -10,5 +10,11 @@ namespace ClassLibrary1
     {
         public int propInt { get; set; }
         public DateTime Date { get; set;}
+
+        public void Foo()
+        {
+            DateTime myDate = DateTime.Now.AddDays(1);
+            Date = myDate;
+        }
     }
 }
