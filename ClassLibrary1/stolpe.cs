@@ -16,5 +16,18 @@ namespace ClassLibrary1
             DateTime myDate = DateTime.Now.AddDays(1);
             Date = myDate;
         }
+
+        public void Main()
+        {
+            Count();
+        }
+
+        public void Count()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
