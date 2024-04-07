@@ -20,5 +20,12 @@ namespace ClassLibrary1
             MyProperty = foo;
         }
 
+        public void MyFunction()
+        {
+            var foo = new Stolpe();
+            foo.Date = DateTime.Now;
+            foo.propInt = MyProperty;
+        }
+
     }
 }
