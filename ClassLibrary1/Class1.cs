@@ -12,7 +12,7 @@ namespace ClassLibrary1
         public int MyProperty { get; set; }
         public Class1()
         {
-            MyProperty = 4;
+            MyProperty = MyProperty + 2;
         }
 
         public Class1(int foo)
