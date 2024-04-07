@@ -10,5 +10,18 @@ namespace ClassLibrary1
     {
         public int propInt { get; set; }
         public DateTime Date { get; set;}
+
+        public void Main()
+        {
+            Count();
+        }
+
+        public void Count()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
