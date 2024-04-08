@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5304A9B1-3250-4526-8711-5BCC8D0AEB0B}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{B813E5E3-674C-4C82-8BAC-44DA5D3C5CD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Common", "HelloWorld.Common\HelloWorld.Common.csproj", "{4F1553EC-DABC-4E62-9D3A-3758E665266E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C5536A9B-52C6-4386-B62B-EE1D5B7A4751}"
+	ProjectSection(SolutionItems) = preProject
+		test\test = test\test
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +39,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B813E5E3-674C-4C82-8BAC-44DA5D3C5CD0} = {EF8761B2-5893-469F-A7E0-57B0333159CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CFF3928-590F-4CF2-9333-3E3333CE9E7C}
 	EndGlobalSection
 EndGlobal
